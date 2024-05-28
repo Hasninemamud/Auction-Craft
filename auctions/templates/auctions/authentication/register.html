@@ -1,0 +1,113 @@
+{% extends "auctions/layout.html" %}
+{% block body %}
+{% load static %}
+
+<!-- Main Container -->
+<div class="dark:bg-gray-900 flex justify-center items-center min-h-screen">
+
+  <!-- Left: Image and Text -->
+  <div class="relative w-1/2 h-screen hidden lg:flex justify-center items-center">
+    <p class="absolute inset-0 flex flex-col z-10 text-xl text-center mt-[30vh] text-white">
+      An Auction Platform for <br />
+      <strong>Collectors</strong>
+    </p>
+    <img
+      src="{% static 'auctions/Aucion_logo.jpg' %}"
+      alt="Auction Logo"
+      class="object-cover w-[20rem] z-0"
+    />
+  </div>
+
+  <!-- Right: Registration Form -->
+  <div class="lg:p-36 md:p-24 sm:p-16 p-8 w-full lg:w-1/2 bg-gray-800 rounded-lg shadow-lg">
+    
+    {% if message %}
+    <div class="flex bg-blue-100 rounded-lg p-4 mb-4 text-sm text-blue-700" role="alert">
+      <svg class="w-5 h-5 inline mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill-rule="evenodd"
+          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+      <div>
+        <span class="font-medium">{{ message }}</span>
+      </div>
+    </div>
+    {% endif %}
+
+    <h1 class="text-3xl font-semibold mb-6 text-white">Register</h1>
+    <form action="{% url 'register' %}" method="POST">
+      {% csrf_token %}
+      
+      <!-- Email Input -->
+      <div class="mb-4">
+        <label for="email" class="block text-gray-400 mb-1">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Address"
+          class="w-full border border-gray-600 rounded-md py-2 px-3 bg-gray-700 text-white focus:outline-none focus:border-blue-500"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Username Input -->
+      <div class="mb-4">
+        <label for="username" class="block text-gray-400 mb-1">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+          class="w-full border border-gray-600 rounded-md py-2 px-3 bg-gray-700 text-white focus:outline-none focus:border-blue-500"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Password Input -->
+      <div class="mb-4">
+        <label for="password" class="block text-gray-400 mb-1">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          class="w-full border border-gray-600 rounded-md py-2 px-3 bg-gray-700 text-white focus:outline-none focus:border-blue-500"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Confirm Password Input -->
+      <div class="mb-4">
+        <label for="confirmation" class="block text-gray-400 mb-1">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmation"
+          name="confirmation"
+          placeholder="Confirm Password"
+          class="w-full border border-gray-600 rounded-md py-2 px-3 bg-gray-700 text-white focus:outline-none focus:border-blue-500"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Sign Up Button -->
+      <button
+        type="submit"
+        class="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full transition duration-200"
+      >
+        Sign-up
+      </button>
+    </form>
+
+    <!-- Login Link -->
+    <div class="mt-6 text-center text-gray-400">
+      <p>Already have an account? 
+        <a href="{% url 'login' %}" class="text-blue-500 hover:underline">Login Here</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
