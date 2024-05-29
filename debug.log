@@ -1445,3 +1445,8 @@ Importing XVThumbImagePlugin
 Not Found: /category/auctions/Aucion_logo.jpg
 Bids for listing 19: <QuerySet []>
 No bids found for listing 19
+Watching for file changes with StatReloader
+Not Found: /category/auctions/Aucion_logo.jpg
+Not Found: /category/auctions/Aucion_logo.jpg
+Bids for listing 17: <QuerySet []>
+No bids found for listing 17
