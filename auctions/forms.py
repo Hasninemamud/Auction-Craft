@@ -3,7 +3,7 @@ from django import forms
 
 from .models import Listing
 
-choices = [('Trading Cards', 'Trading Cards'), ('Comic Books', 'Comic Books'), ('Figurines', 'Figurines'), ('Collectibles', 'Collectibles'), ('Currency & Coins', 'Currency & Coins'), ('Other', 'Other')]
+choices = [('Electric Device', 'Electric Device'), ('Car', 'Car'), ('Furniture', 'Furniture'), ('Painting', 'Painting'),  ('Other', 'Other')]
 
 class ListingForm(ModelForm):
     title = forms.CharField(max_length=64, widget=forms.TextInput(attrs={'class':'border rounded p-2 w-full mt-2'}))

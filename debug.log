@@ -1314,3 +1314,134 @@ Bids for listing 17: <QuerySet []>
 No bids found for listing 17
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /otp_authentication/
+Watching for file changes with StatReloader
+Bids for listing 13: <QuerySet [<Bid: Bid object (6)>, <Bid: Bid object (7)>]>
+Highest bidder for listing 13: Partho
+Bids for listing 15: <QuerySet [<Bid: Bid object (9)>, <Bid: Bid object (10)>, <Bid: Bid object (11)>]>
+Highest bidder for listing 15: Nayeem
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Bids for listing 18: <QuerySet []>
+No bids found for listing 18
+Bids for listing 18: <QuerySet []>
+No bids found for listing 18
+Not Found: /category/auctions/Aucion_logo.jpg
+Not Found: /category/auctions/Aucion_logo.jpg
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Auction Craft\AuctionCraft\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /category/auctions/Aucion_logo.jpg
+Not Found: /category/auctions/Aucion_logo.jpg
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /category/auctions/Aucion_logo.jpg
+Bids for listing 19: <QuerySet []>
+No bids found for listing 19
