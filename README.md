@@ -1,6 +1,6 @@
-# Bid Bazaar
+# Auction Craft
 
-Welcome to Bid Bazaar, an innovative online auction platform that brings the excitement of traditional auctions to the digital world. Our platform modernizes the auction process, offering a user-friendly, secure environment for buyers and sellers to engage in real-time bidding.
+Welcome to Auction Craft, an innovative online auction platform that brings the excitement of traditional auctions to the digital world. Our platform modernizes the auction process, offering a user-friendly, secure environment for buyers and sellers to engage in real-time bidding.
 
 ## Features
 
@@ -84,5 +84,5 @@ While Auctio-Craft offers a robust auction platform with a range of features, th
    - **Objective**: Enhance the admin dashboard with advanced analytics and reporting tools to provide insights into bidding trends, user behavior, and listing performance.
    - **Benefits**: Informed decision-making for sellers, actionable insights for platform optimization, and improved overall performance and competitiveness.
 
-These future enhancements align with our commitment to continuously improving Bid Bazaar and delivering a best-in-class auction experience for our users. Stay tuned for updates as we work on implementing these exciting new features!
+These future enhancements align with our commitment to continuously improving Auction Craft and delivering a best-in-class auction experience for our users. Stay tuned for updates as we work on implementing these exciting new features!
 
