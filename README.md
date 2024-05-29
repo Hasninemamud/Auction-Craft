@@ -21,7 +21,7 @@ Welcome to Bid Bazaar, an innovative online auction platform that brings the exc
 
 1. Clone the repository:
     ```
-    git clone https://github.com/BlockbusterAndy/BidBazaar.git
+    git clone https://github.com/BlockbusterAndy/Auction-Craft.git
     ```
 2. Install the required dependencies:
     ```
@@ -49,11 +49,9 @@ Welcome to Bid Bazaar, an innovative online auction platform that brings the exc
  ![Home Page](media/outputscreens/HomePage.png)
  2. Login Page
  ![Login Page](media/outputscreens/login.png)
- 3. OTP Authentication
- ![OTP Page](media/outputscreens/OTP_Authentication.png)
- 4. Listing
+ 3. Listing
  ![Listing](media/outputscreens/ItemListing.png)
- 5. User Profile
+ 4. User Profile
  ![Profile Page](media/outputscreens/UserProfile.png)
 
 ## Admin Dashboard
@@ -68,7 +66,7 @@ username - admin, password - admin
 
 ## Future Enhancements
 
-While Bid Bazaar offers a robust auction platform with a range of features, there are several areas where we plan to implement enhancements in the future to further improve the user experience and expand the functionality. Some of the planned enhancements include:
+While Auctio-Craft offers a robust auction platform with a range of features, there are several areas where we plan to implement enhancements in the future to further improve the user experience and expand the functionality. Some of the planned enhancements include:
 
 ### 1. Search and Filtering Options
    - **Objective**: add the search functionality to allow users to filter listings based on various criteria such as price range, category, location, and auction end time.
@@ -88,22 +86,3 @@ While Bid Bazaar offers a robust auction platform with a range of features, ther
 
 These future enhancements align with our commitment to continuously improving Bid Bazaar and delivering a best-in-class auction experience for our users. Stay tuned for updates as we work on implementing these exciting new features!
 
-
-## Contributing
-
-We welcome contributions to Bid Bazaar! To contribute, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push to the branch.
-4. Submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Django Project for the excellent documentation and resources.
-- Tailwind CSS for providing a powerful and flexible CSS framework.
-- All the open-source libraries and tools used in this project.
