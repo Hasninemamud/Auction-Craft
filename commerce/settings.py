@@ -148,7 +148,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 #Change with your own email and app specific password
 EMAIL_HOST_USER = 'auctioncraft2024@gmail.com'
-EMAIL_HOST_PASSWORD = 'yuyq fiwc byca llsk'
+EMAIL_HOST_PASSWORD = 'haci kdzd twnb irqz'
 
 LOGGING = {
     'version': 1,
