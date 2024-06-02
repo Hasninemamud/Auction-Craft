@@ -3313,3 +3313,4 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Bids for listing 19: <QuerySet [<Bid: Bid object (13)>, <Bid: Bid object (14)>, <Bid: Bid object (15)>, <Bid: Bid object (16)>, <Bid: Bid object (17)>]>
 Highest bidder for listing 19: Hasinur
+Watching for file changes with StatReloader
