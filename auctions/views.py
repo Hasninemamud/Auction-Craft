@@ -17,8 +17,14 @@ from django.core.mail import send_mail
 from django.contrib.auth.hashers import make_password
 import time, datetime, calendar
 from django.template.loader import render_to_string
+from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 
+@login_required
+def VideoCall(request):
+    return render(request, 'auctions/videoCall.html', {'username': request.user.username})
 
+    
 def index(request):
     listings = Listing.objects.filter(auction_active=True)
     for listing in listings:

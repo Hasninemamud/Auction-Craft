@@ -16,3 +16,4 @@ class ListingForm(ModelForm):
     class Meta:
         model = Listing
         fields = ['title', 'category', 'description', 'starting_value', 'image']
+    

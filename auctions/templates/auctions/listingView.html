@@ -1,24 +1,13 @@
-{% extends "auctions/layout.html" %} {% block body %} {% load custom_filters %}
+{% extends "auctions/layout.html" %} 
+{% block body %} 
+{% load custom_filters %}
+
 <!-- component -->
 <section class="min-h-[100vh] w-[100vw] pb-12vh bg-gray-900 pt-[12vh]">
-
     {% if error_message %}
-    <div
-      id="error-alert"
-      class="flex bg-blue-100 rounded-lg p-4 mb-4 text-sm text-blue-700"
-      role="alert"
-    >
-      <svg
-        class="w-5 h-5 inline mr-3"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
-          clip-rule="evenodd"
-        ></path>
+    <div id="error-alert" class="flex bg-blue-100 rounded-lg p-4 mb-4 text-sm text-blue-700" role="alert">
+      <svg class="w-5 h-5 inline mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
       </svg>
       <div>
         <span id="error-message" class="font-medium">{{ error_message }}</span> Bid higher than current price! <span id="countdown">30</span>
@@ -88,6 +77,7 @@
           </form>
         </div>
         {% endif %}
+        
         {% if not owner and  user_authenticated %}
           {% if active %}
             <div class="flex flex-col gap-4 my-4 items-center">
@@ -100,6 +90,11 @@
                 />
                 <!-- Button: Submit [h-12] -->
                 <button class="h-12 min-w-[8rem] rounded-lg border-2 border-emerald-600 bg-emerald-500 text-emerald-50 shadow-lg hover:bg-emerald-600 focus:outline-none focus:ring focus:ring-emerald-600">Bid</button>
+                <div class="m-6 text-center">
+                  <a href="http://127.0.0.1:8000/meeting/" class="h-12 min-w-[10rem] rounded-lg border-2 border-blue-600 bg-blue-500 text-white shadow-lg hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-600 inline-flex justify-center items-center">
+                    Join Live Auction
+                  </a>
+                </div>
               </form>
               {% if user_authenticated %}
                 <form action="{% url 'watch' listing.id %}" method="post">
@@ -122,6 +117,9 @@
         {% endif %}
 
         {% if user_authenticated %}
+        <div id="error-alert" class="hidden">
+          <span id="countdown">30</span>
+      </div>
       
         <div class="flex flex-col mt-4">
             <h4 class="text-white text-center text-2xl mt-4" >Comment Section</h4>
@@ -147,9 +145,10 @@
                 </div>
             </div>
         </div>
+        
     {% endif %}
     </div>
-
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
           var remainingTime = 30;
@@ -166,9 +165,8 @@
             }
           }, 1000);
         });
-    </script>
+      </script>
       
 </section>
-
 
 {% endblock %}

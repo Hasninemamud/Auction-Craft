@@ -18,7 +18,6 @@ class Listing(models.Model):
     winner = models.ForeignKey(User, on_delete=models.CASCADE, related_name="won", null=True, blank=True)
     image = models.ImageField(null=True, blank=True, upload_to="images/")
     created_at = models.DateTimeField(default=timezone.now)
-    
     def save(self, *args, **kwargs):
         if not self.created_at.tzinfo:
             self.created_at = timezone.make_aware(self.created_at)
