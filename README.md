@@ -21,7 +21,7 @@ Welcome to Auction Craft, an innovative online auction platform that brings the 
 
 1. Clone the repository:
     ```
-    git clone https://github.com/BlockbusterAndy/Auction-Craft.git
+    git clone https://github.com/Hasninemamud/Auction-Craft
     ```
 2. Install the required dependencies:
     ```
